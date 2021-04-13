@@ -26273,16 +26273,88 @@ try {
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _jsxFileName = "/Users/isabellaabulhosn/Desktop/uw/uw senior/spring q/INFO 474/example1/src/App.js";
+  const viewWidth = 500;
+  const viewHeight = 500;
   const App = () => {
     return (
-      /*#__PURE__*/_reactDefault.default.createElement("div", {
+      /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        style: {
+          border: "1px solid lightgrey",
+          width: viewWidth,
+          height: viewHeight
+        },
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 4,
-          columnNumber: 12
+          lineNumber: 8,
+          columnNumber: 9
         }
-      }, "hello world from react")
+      }, /*#__PURE__*/_reactDefault.default.createElement("circle", {
+        cx: 20,
+        cy: 20,
+        r: "5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 200,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 212,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 224,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 236,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 248,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 13
+        }
+      }))
     );
   };
   _c = App;
